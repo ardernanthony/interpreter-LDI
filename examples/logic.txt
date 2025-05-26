@@ -1,0 +1,6 @@
+true == false
+5 != 4
+(10 > 3) and true
+!false
+true or false
+(5 + 5) == 10 and !(4 < 2)
