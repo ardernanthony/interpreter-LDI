@@ -1,6 +1,7 @@
 true == false
-5 != 4
-(10 > 3) and true
-!false
-true or false
-(5 + 5) == 10 and !(4 < 2)
+5 < 10
+(5 + 3) != (2 * 4)
+!(false)
+true and false
+false or true
+(3 * 2) >= 5 and true
