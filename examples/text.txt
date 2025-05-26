@@ -1,0 +1,6 @@
+"hello" + " world"
+"abc" == "abc"
+"abc" != "def"
+"5" + "1"
+"10 corgis" == "10" + " corgis"
+5 + "dog"       # should throw a TypeError

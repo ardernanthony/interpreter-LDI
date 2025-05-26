@@ -1,0 +1,19 @@
+# Global var creation and usage
+quickMaths = 10
+quickMaths = quickMaths + 2
+print quickMaths
+
+# Float + int
+floatTest = 1.0
+floatTest = floatTest + 5
+print floatTest
+
+# String concat with number (should raise error)
+stringCatTest = "10 corgis"
+stringCatTest = stringCatTest + 5 + " more corgis"
+print stringCatTest
+
+# Invalid operation (should raise error)
+errorTest = 5
+errorTest = errorTest + "insert string here"
+print errorTest
