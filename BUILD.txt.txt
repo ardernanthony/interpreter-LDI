@@ -1,0 +1,13 @@
+BUILD INSTRUCTIONS
+
+This interpreter is written in Python 3.
+
+To build and run:
+
+1. Open a terminal.
+2. Navigate to the directory that contains this BUILD.txt file.
+3. Run:
+
+   python src/interpreter.py examples/vars.txt
+
+No installation or build tools are required.

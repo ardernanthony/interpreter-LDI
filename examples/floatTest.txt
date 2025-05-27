@@ -1,0 +1,17 @@
+# basic float math
+x = 1.5
+y = x + 2.25
+z = y * 2
+print x
+print y
+print z
+
+# float and int together
+a = 3
+b = 2.0
+c = a + b
+print c
+
+# float comparison
+print z > 5.0
+print x == 1.5
