@@ -1,13 +1,58 @@
-BUILD INSTRUCTIONS
+# BUILD INSTRUCTIONS
 
-This interpreter is written in Python 3.
+This interpreter is written in Python 3 and requires no external libraries.
 
-To build and run:
+---
 
-1. Open a terminal.
-2. Navigate to the directory that contains this BUILD.txt file.
-3. Run:
+## Prerequisites
 
-   python src/interpreter.py examples/vars.txt
+- Python 3.8 or higher
+- A command-line interface (Linux terminal, Windows CMD/PowerShell)
 
-No installation or build tools are required.
+To check Python version:
+    python --version
+
+---
+
+## Project Structure
+
+The archive contains:
+
+- src/
+  - interpreter.py
+  - lexer.py
+  - parser.py
+  - tokens.py
+  - environment.py
+
+- examples/
+  - calc.txt
+  - floatTest.txt
+  - logic.txt
+  - text.txt
+  - vars.txt
+  
+
+- BUILD.txt
+- README.txt
+
+---
+
+## How to Run
+
+1. Open your terminal.
+2. Navigate to the folder containing `src/` and `examples/`.
+3. Run the interpreter using:
+
+    python src/interpreter.py examples/vars.txt
+
+You can replace `vars.txt` with any example file to test other features.
+
+---
+
+## Notes
+
+- This version supports global variables, arithmetic, string logic, type checking, and print statements.
+- Comments can be added to any line using `#`.
+
+No installation or build step is required.
